@@ -1,0 +1,128 @@
+[
+  {
+    "event": {
+    "ticketId": 1,
+    "flightDate": "2022-01-02",
+    "flightNumber": "A12",
+    "seatNumber": "24AB",
+    "ticketCost": 1000
+    }
+  },
+  {
+    "event":  {
+      "ticketId": 2,
+      "flightDate": "2022-01-03",
+      "flightNumber": "A12",
+      "seatNumber": "24AC",
+      "ticketCost": 1000
+    }
+  },
+  {
+    "event":   {
+      "ticketId": 3,
+      "flightDate": "2022-01-03",
+      "flightNumber": "A13",
+      "seatNumber": "24AD",
+      "ticketCost": 1000
+    }
+  },
+  {
+    "event":   {
+      "ticketId": 4,
+      "flightDate": "2022-01-04",
+      "flightNumber": "A13",
+      "seatNumber": "24AC",
+      "ticketCost": 1000
+    }
+  },
+  {
+    "event":    {
+      "ticketId": 5,
+      "flightDate": "2022-01-05",
+      "flightNumber": "A15",
+      "seatNumber": "24AB",
+      "ticketCost": 1000
+    }
+  },
+  {
+    "event":    {
+      "ticketId": 6,
+      "flightDate": "2022-01-05",
+      "flightNumber": "A15",
+      "seatNumber": "24AB",
+      "ticketCost": 1000
+    }
+  },
+  {},
+  {
+    "event":    {
+      "ticketId": "",
+      "flightDate": "2022-01-05",
+      "flightNumber": "A15",
+      "seatNumber": "24AB",
+      "ticketCost": 1000
+    }
+  },
+  {
+    "event":    {
+      "ticketId": 7,
+      "flightDate": "",
+      "flightNumber": "A15",
+      "seatNumber": "24AB",
+      "ticketCost": 1000
+    }
+  },
+  {
+    "event":    {
+      "ticketId": 8,
+      "flightDate": "01/05/2022",
+      "flightNumber": "A15",
+      "seatNumber": "24AB",
+      "ticketCost": 1000
+    }
+  },
+  {
+    "event":    {
+      "ticketId": 9,
+      "flightDate": "2022-01-05",
+      "flightNumber": "",
+      "seatNumber": "24AB",
+      "ticketCost": 1000
+    }
+  },
+  {
+    "event":    {
+      "ticketId": 9,
+      "flightDate": "2022-01-05",
+      "flightNumber": "@#$",
+      "seatNumber": "24AB",
+      "ticketCost": 1000
+    }
+  },
+  {
+    "event":    {
+      "ticketId": 9,
+      "flightDate": "2022-01-05",
+      "flightNumber": "A34",
+      "seatNumber": "",
+      "ticketCost": 1000
+    }
+  },
+  {
+  "event":    {
+    "ticketId": 9,
+    "flightDate": "2022-01-05",
+    "flightNumber": "A34",
+    "seatNumber": "@#$@",
+    "ticketCost": 1000
+  }
+}, {
+  "event":    {
+    "ticketId": 9,
+    "flightDate": "2022-01-05",
+    "flightNumber": "A34",
+    "seatNumber": "A14",
+    "ticketCost": -10
+  }
+}
+]

@@ -1,0 +1,43 @@
+[
+  {
+    "dates": [
+      {
+        "date": "2022-01-03",
+        "flights": [
+          {
+            "flightNumber": "A13",
+            "revenue": 1000,
+            "occupiedSeats": [
+              "24AD"
+            ]
+          }
+        ]
+      },
+      {
+        "date": "2022-01-04",
+        "flights": []
+      }
+    ]
+  },
+  {
+    "dates": [
+      {
+        "date": "2022-01-03",
+        "flights": []
+      },
+      {
+        "date": "2022-01-04",
+        "flights": [
+          {
+            "flightNumber": "A13",
+            "revenue": 2000,
+            "occupiedSeats": [
+              "24AD",
+              "24AC"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

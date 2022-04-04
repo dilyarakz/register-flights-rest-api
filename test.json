@@ -1,0 +1,125 @@
+{
+  "input": {
+    "event": {
+      "ticketId": 1,
+      "flightDate": "2021-11-01",
+      "flightNumber": "AC1",
+      "seatNumber": "1A",
+      "ticketCost": 100000
+    }
+  },"response":
+    {
+      "status": "success"
+    },
+  "input": {
+    "event": {
+      "ticketId": 1,
+      "flightDate": "2021-11-01",
+      "flightNumber": "AC1",
+      "seatNumber": "3A",
+      "ticketCost": 100000
+    }
+  },
+  "response": {
+    "status": "failed",
+    "reason": "tickedId already exists"
+  },
+  "input": {
+    "event": {
+      "ticketId": 2,
+      "flightDate": "2021-11-01",
+      "flightNumber": "AC1",
+      "seatNumber": "1A",
+      "ticketCost": 100000
+    }
+  },
+  "response": {
+    "status": "failed",
+    "reason": "seatNumber already taken"
+  },
+  "input": {
+  "event": {
+    "ticketId": 2,
+    "flightDate": "2021-11-01",
+    "flightNumber": "AC1",
+    "seatNumber": "10A",
+    "ticketCost": 100000
+  }
+},
+  "response": {
+    "status": "success"
+  },
+  "GET": {
+
+  },"response": {
+
+  "dates": [
+    {
+      "date": "2021-11-01",
+      "flights": [
+        {
+          "flightNumber": "AC1",
+          "revenue": 200000,
+          "occupiedSeats": ["1A", "10A"]
+        }
+      ]
+    },
+    {
+      "date": "2021-11-02",
+      "flights": []
+    },
+    {
+      "date": "2021-11-03",
+      "flights": []
+    }
+  ]
+
+},
+  "input": {
+    "event": {
+      "ticketId": 3,
+      "flightDate": "2021-11-03",
+      "flightNumber": "AC1",
+      "seatNumber": "15A",
+      "ticketCost": 50000
+    }
+  },
+  "response": {
+    "status": "success"
+  },
+  "get": {
+
+  "dates": [
+    {
+      "date": "2021-11-01",
+      "flights": []
+    },
+    {
+      "date": "2021-11-02",
+      "flights": []
+    },
+    {
+      "date": "2021-11-03",
+      "flights": [
+        {
+          "flightNumber": "AC1",
+          "revenue": 250000,
+          "occupiedSeats": ["1A", "10A", "15A"]
+        },
+        {
+          "flightNumber": "AC2",
+          "revenue": 200000,
+          "occupiedSeats": ["5A"]
+        }
+      ]
+    }
+  ]
+
+  }
+
+
+
+
+
+
+}
